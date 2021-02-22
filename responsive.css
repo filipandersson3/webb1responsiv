@@ -111,3 +111,30 @@ footer > p > a {
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* media queries */
+@media screen and (min-width: 0px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: rgb(173, 230, 178);
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(219, 173, 230);
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: rgb(230, 229, 173);
+  }
+}
