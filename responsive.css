@@ -85,6 +85,18 @@ footer > p > a {
   font-size: 1.2rem;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.card {
+  padding: 0.5rem;
+  background-color: rgb(233, 233, 233);
+}
+
 /* helpers */
 .h-100 {
   height: 100%;
@@ -143,12 +155,21 @@ footer > p > a {
 }
 @media screen and (min-width: 480px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(143, 92, 211);
+  }
+  .container {
+    width: 460px;
   }
 }
 @media screen and (min-width: 768px) {
   body {
     background-color: rgb(173, 230, 178);
+  }
+  .container {
+    width: 650px;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1024px) {
