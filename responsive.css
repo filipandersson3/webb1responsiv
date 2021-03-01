@@ -10,6 +10,7 @@ body {
   margin: 0;
   max-width: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(186, 252, 160);
 }
 
 img {
@@ -72,7 +73,7 @@ footer li {
   margin-right: auto;
   padding-left: .5rem;
   padding-right: .5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .header {
@@ -157,9 +158,6 @@ footer li {
 
 /* media queries */
 @media screen and (min-width: 0px) {
-  body {
-    background-color: lightblue;
-  }
   ul {
     padding-left: 0;
   }
@@ -172,9 +170,6 @@ footer li {
   }
 }
 @media screen and (min-width: 480px) {
-  body {
-    background-color: rgb(143, 92, 211);
-  }
   .container {
     width: 460px;
   }
@@ -185,23 +180,10 @@ footer li {
   }
 }
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(173, 230, 178);
-  }
   .container {
     width: 650px;
   }
   .cards {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (min-width: 1024px) {
-  body {
-    background-color: rgb(219, 173, 230);
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: rgb(230, 229, 173);
   }
 }
