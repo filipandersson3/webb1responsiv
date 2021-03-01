@@ -54,11 +54,8 @@ footer {
   color: rgb(235, 235, 235);
 }
 
-footer > p > a {
-  background-color: inherit;
-  color: inherit;
-  font-weight: 600;
-  text-decoration: none;
+footer a {
+  color:  rgb(235, 235, 235);
 }
 
 footer li {
@@ -75,6 +72,7 @@ footer li {
   margin-right: auto;
   padding-left: .5rem;
   padding-right: .5rem;
+  padding-bottom: 5rem;
 }
 
 .header {
